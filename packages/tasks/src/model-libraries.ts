@@ -241,13 +241,6 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/amazon-science/chronos-forecasting",
 		snippets: snippets.chronos_forecasting,
 	},
-	clara: {
-		prettyLabel: "Clara",
-		repoName: "Clara",
-		filter: false,
-		repoUrl: "https://github.com/nvidia/clara",
-		countDownloads: `path_extension:"ckpt" OR path:"config.json"`,
-	},
 	clipscope: {
 		prettyLabel: "clipscope",
 		repoName: "clipscope",
@@ -1369,6 +1362,13 @@ export const MODEL_LIBRARIES_UI_ELEMENTS = {
 		repoUrl: "https://github.com/microsoft/VibeVoice",
 		snippets: snippets.vibevoice,
 		filter: false,
+	},
+	"videox_fun": {
+		prettyLabel: "VideoX Fun",
+		repoName: "VideoX Fun",
+		repoUrl: "https://github.com/aigc-apps/VideoX-Fun",
+		filter: false,
+		countDownloads: `path_extension:"safetensors"`,
 	},
 	"wan2.2": {
 		prettyLabel: "Wan2.2",
